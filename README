@@ -1,0 +1,4 @@
+A collection of tools for working with Avro. Currently:
+
+* avrocat: using the Python bindings for Avro, read in an Avro file and write out the data as text.
+* pprint_avsc: a tool to compare and pretty print Avro schemas
