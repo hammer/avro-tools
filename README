@@ -3,3 +3,4 @@ A collection of tools for working with Avro. Currently:
 * avrocat: using the Python bindings for Avro, read in an Avro file and write out the data as text.
 * pprint_avsc: a tool to compare and pretty print Avro schemas.
 * license_spacing: make the Apache 2.0 license declarations conform to PEP 8 style guidelines.
+* check_avsc: ensure schema parsing module works as advertised.
