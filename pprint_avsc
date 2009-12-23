@@ -10,7 +10,8 @@ schema_pprint = """\
 """
 
 # stick ugly schema here
-schema_ugly = ""
+schema_ugly = """\
+"""
 
 def pprint_schema(schema_ugly):
   str_buff = StringIO()
@@ -21,6 +22,6 @@ def pprint_schema(schema_ugly):
 
 if __name__ == "__main__":
   if not schema_pprint: schema_pprint = pprint_schema(schema_ugly)
-  print loads(schema_pprint) == loads(schema)
+  print loads(schema_pprint) == loads(schema_ugly)
   print schema_pprint
 
